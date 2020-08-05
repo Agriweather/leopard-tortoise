@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "leopard-tortoise"
+version = "0.1.0"
+description = "豹龜是最會爬爬走也爬的最快的阿龜，這個專案主要為爬抓及整理公開資料的內容"
+authors = ["Ninthday <tuvix@ninthday.info>"]
+maintainers = ["Ninthday <tuvix@ninthday.info>"]
+license = "GPL-3.0-only"
+
+[tool.poetry.dependencies]
+python = ">=3.6.1"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.5.3"
+pre-commit = "^2.6.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.urls]
+issues = "https://github.com/Agriweather/leopard-tortoise/issues"
